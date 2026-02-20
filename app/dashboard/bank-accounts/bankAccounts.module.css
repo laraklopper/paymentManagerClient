@@ -1,0 +1,55 @@
+.bankAccountContainer {
+  padding: 1.5rem; /* p-6 */
+}
+
+.heading {
+  font-size: 1.25rem;   /* text-xl */
+  font-weight: 600;     /* font-semibold */
+  color: #111827;       /* text-gray-900 */
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+
+.tableWrapper {
+  background-color: #ffffff;     /* bg-white */
+  border: 1px solid #e5e7eb;     /* border border-gray-200 */
+  border-radius: 0.5rem;         /* rounded-lg */
+  overflow: hidden;
+}
+
+.table {
+  width: 100%;          /* w-full */
+  font-size: 0.875rem;  /* text-sm */
+}
+
+.tableHead tr {
+  background-color: #f9fafb;         /* bg-gray-50 */
+  border-bottom: 1px solid #e5e7eb;  /* border-b border-gray-200 */
+}
+
+.th {
+  padding: 0.75rem 1rem; /* px-4 py-3 */
+  text-align: left;
+  font-weight: 500;      /* font-medium */
+  color: #4b5563;        /* text-gray-600 */
+}
+
+.tableBody tr + tr {
+  border-top: 1px solid #f3f4f6; /* divide-y divide-gray-100 */
+}
+
+.tableBody tr:hover {
+  background-color: #f9fafb; /* hover:bg-gray-50 */
+}
+
+.tdName {
+  padding: 0.75rem 1rem; /* px-4 py-3 */
+  font-weight: 500;      /* font-medium */
+  color: #111827;        /* text-gray-900 */
+}
+
+.tdMono {
+  padding: 0.75rem 1rem; /* px-4 py-3 */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace; /* font-mono */
+  color: #374151;        /* text-gray-700 */
+}
